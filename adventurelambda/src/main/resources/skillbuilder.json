@@ -1,0 +1,51 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "adventure creator",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WelcomeIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "hi"
+                    ]
+                },
+                {
+                    "name": "ListIntent",
+                    "slots": [],
+                    "samples": [
+                        "game list",
+                        "list games",
+                        "list",
+                        "list my games",
+                        "what games can I play"
+                    ]
+                },
+                {
+                    "name": "NonsenseIntent",
+                    "slots": [],
+                    "samples": [
+                        "blahblahblah",
+                        "yadayadayada",
+                        "schnappy",
+                        "argablargha"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
